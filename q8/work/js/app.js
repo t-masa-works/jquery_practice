@@ -27,7 +27,6 @@ function searchBook(searchWord, pageCount) {
 function displayResult(result) {
   // 変数resultListに、クラスlistsの要素を格納
   const resultList = $(".lists");
-  console.log(result);
   // 変数resultに格納された情報を、１つずつ引数dataとして受け取り、情報の数だけ繰り返し処理を行う
   $.each(result, function (index, data) {
     console.log(data);
